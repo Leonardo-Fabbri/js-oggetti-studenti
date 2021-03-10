@@ -9,3 +9,31 @@ var studente = {
 for (var key in studente) {
     console.log (key + ":" + studente[key]);
 }
+
+
+
+//seconda parte//
+var studenti = [
+    {
+        "nome" :"Leonardo",
+        "cognome" : "Fabbri",
+        "età": "22 anni"
+
+    },
+    {
+        "nome" :"Paolo",
+        "cognome" : "Galilei",
+        "età": "23 anni"
+
+    },
+    {
+        "nome" :"Paperpone",
+        "cognome" : "Paperopoli",
+        "età": "20 anni"
+
+    }]
+
+    console.log (studenti);
+
+
+
