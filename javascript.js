@@ -12,6 +12,8 @@ for (var key in studente) {
 
 
 
+
+
 //seconda parte//
 var studenti = [
     {
@@ -31,9 +33,23 @@ var studenti = [
         "cognome" : "Paperopoli",
         "età": "20 anni"
 
-    }]
+    }
+];
 
-    console.log (studenti);
+
+for(var key in studenti){
+    console.log (studenti[key]["nome"] +" " +studenti[key]["cognome"]);
+}
+
+
+
+ // terrza parte//
+
+
+
+
+
+
 
 
 
